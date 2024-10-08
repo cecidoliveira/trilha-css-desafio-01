@@ -127,3 +127,28 @@ section{
     text-transform: lowercase;
     text-shadow: 0.2rem 0.2rem #33A8DB;
 }
+/* section 3 */
+#professional-challenges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    height: 95vh;
+    text-align: center;
+
+}
+/*  section 3 title */
+#professional-challenges h2{
+    width: 51rem;
+}
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 23.8vh;
+}
+/* footer paragraph span  */
+
