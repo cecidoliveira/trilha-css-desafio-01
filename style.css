@@ -71,6 +71,21 @@ body{
     font-size: 1rem;
     text-align: center;
 }
+/* sections title, paragraph, division*/
+section h2{
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #31A8DD;
+    font-weight: 700;
+    font-size: 2rem;
+}
+section p{
+    width: 49.5rem;
+    margin: 1.5rem 0;
+}
+section{
+    border-bottom: #33A8DB 0.1rem solid;
+}
 /* section 1 */
 #course-content{
     display: flex;
@@ -78,20 +93,37 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 74.7vh;
-    border-bottom: #33A8DB 0.1rem solid;
+    height: 74vh;
 }
-/* section 1 title */
-#course-content h2{
-    text-transform: uppercase;
-    letter-spacing: 0.5rem;
-    color: #31A8DD;
-    font-weight: 700;
-    font-size: 2rem;
-    text-align: center;
-}
-/* section 1 paragraph */
-#course-content p{
-    width: 49.5rem;
+/* section 1 modules */
+.module{
     margin: 1.5rem 0;
+    padding: 1rem 7.9rem;
+    background-color: #252525;
+    border: 0.1rem #33A8DB inset;
+    border-radius: 3.5rem;
+    box-shadow: #0f0f0f 0px 2px 4px 3px inset;
+}
+/* section 1 modules paragraph span */
+.module span{
+    color: #33A8DB;
+}
+/* section 2 */
+#transform-world{
+    display: flex;
+    align-items: center;
+    background-image: url("./assets/images/woman-code.png");
+    background-position: 50% 42%;
+    background-size: cover;
+    height: 50vh;
+}
+/* section 2  paragraph*/
+#transform-world p {
+    width: 19rem;
+    height: 8.8rem;
+    margin-left: 18rem;
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: lowercase;
+    text-shadow: 0.2rem 0.2rem #33A8DB;
 }
